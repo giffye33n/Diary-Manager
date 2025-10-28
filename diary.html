@@ -1,0 +1,37 @@
+<!-- Diary Manager Settings -->
+<div class="diary-manager-settings">
+  <div class="inline-drawer">
+    <div class="inline-drawer-toggle inline-drawer-header">
+      <b>Diary Manager</b>
+      <div class="inline-drawer-icon fa-solid fa-circle-chevron-down down"></div>
+    </div>
+    <div class="inline-drawer-content">
+      <div class="diary-block">
+        <button id="open_diary_modal" class="menu_button">Open Diary</button>
+        <button id="add_diary_entry" class="menu_button">+ New Entry (as {{char}})</button>
+      </div>
+
+      <div id="diary_list" class="diary-list"></div>
+
+      <hr class="sysHR" />
+    </div>
+  </div>
+</div>
+
+<!-- Modal for Diary -->
+<div id="diary_modal" class="modal" style="display:none;">
+  <div class="modal-content wide_modal">
+    <div class="modal-header">
+      <span class="modal-title">Diary Entry</span>
+      <span class="modal-close">×</span>
+    </div>
+    <div class="modal-body">
+      <textarea id="diary_text" rows="8" placeholder="Write in {{char}}'s voice..."></textarea>
+      <div class="diary-actions">
+        <button id="save_diary" class="menu_button">Save</button>
+        <button id="cancel_diary" class="menu_button">Cancel</button>
+        <button id="delete_diary" class="menu_button" style="background:red;color:white;display:none;">Delete</button>
+      </div>
+    </div>
+  </div>
+</div>
