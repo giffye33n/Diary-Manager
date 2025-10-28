@@ -1,0 +1,11 @@
+{
+  "display_name": "Diary Manager",
+  "loading_order": 10,
+  "requires": [],
+  "optional": [],
+  "js": "index.js",
+  "css": "style.css",
+  "author": "giffye33n",
+  "version": "1.0.0",
+  "homePage": "https://github.com/giffye33n/Diary-Manager"
+}
