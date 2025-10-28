@@ -1,0 +1,20 @@
+.diary-block { margin: 10px 0; }
+.diary-list { max-height: 300px; overflow-y: auto; margin-top: 10px; }
+.diary-entry {
+  background: var(--smart-theme-bg-color);
+  border: 1px solid var(--smart-theme-border-color);
+  border-radius: 8px;
+  padding: 10px;
+  margin: 8px 0;
+  position: relative;
+}
+.diary-entry .date { font-size: 0.8em; color: #888; }
+.diary-entry .content { margin-top: 5px; white-space: pre-wrap; }
+.diary-entry .actions {
+  position: absolute; top: 8px; right: 8px; font-size: 0.8em;
+}
+.diary-entry .actions button { margin-left: 5px; font-size: 0.9em; }
+
+#diary_modal textarea { width: 100%; resize: vertical; }
+.diary-actions { margin-top: 10px; text-align: right; }
+.diary-actions button { margin-left: 8px; }
