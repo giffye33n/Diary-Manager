@@ -1,5 +1,4 @@
-.diary-block { margin: 10px 0; }
-.diary-list { max-height: 300px; overflow-y: auto; margin-top: 10px; }
+#diary_list { max-height: 300px; overflow-y: auto; margin-top: 10px; }
 .diary-entry {
   background: var(--smart-theme-bg-color);
   border: 1px solid var(--smart-theme-border-color);
@@ -14,7 +13,5 @@
   position: absolute; top: 8px; right: 8px; font-size: 0.8em;
 }
 .diary-entry .actions button { margin-left: 5px; font-size: 0.9em; }
-
 #diary_modal textarea { width: 100%; resize: vertical; }
 .diary-actions { margin-top: 10px; text-align: right; }
-.diary-actions button { margin-left: 8px; }
